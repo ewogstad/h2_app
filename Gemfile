@@ -8,8 +8,16 @@ gem 'rails', '3.2.11'
 # gem 'sqlite3'
 
 gem 'pg'
+gem 'rb-readline'
 
-gem 'json'
+# Gems used only for assets and not required
+# in production environments by default.
+
+group :development do
+  gem 'rspec-rails' 
+  gem 'webrat', '0.7.1'
+  gem 'jquery-rails'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -19,13 +27,10 @@ group :assets do
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
-  
-  gem 'execjs'
 
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails', '2.1.4'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

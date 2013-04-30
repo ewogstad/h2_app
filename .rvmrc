@@ -1,0 +1,10 @@
+rvm use ruby-1.9.2@h2_app --create --install
+
+echo -n "Checking if bundler gem is installed... "
+if `ruby -rubygems -e "gem 'bundler'" &>/dev/null`; then
+  echo "Yes.  Good to go."
+else
+  echo "Wait a sec.  Doing that now..."
+  gem install bundler
+fi
+
