@@ -8,8 +8,8 @@ development:
   encoding: unicode
   database: h2_app_development 
   pool: 5
-  username: h2_app
-  password: h2_app_11
+  username: dlm-core
+  password: dlm-core_11
 #  timeout: 5000
 
 # Warning: The database defined as "test" will be erased and
@@ -20,8 +20,8 @@ test:
   encoding: unicode
   database: h2_app_test
   pool: 5
-  username: h2_app
-  password: h2_app_11
+  username: dlm-core
+  password: dlm-core_11
   timeout: 5000
 
 production:
