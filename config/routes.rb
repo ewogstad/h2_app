@@ -5,6 +5,8 @@ H2App::Application.routes.draw do
 
   get "pages/about"
   
+  get "pages/help"
+
   resources :users
 
 
