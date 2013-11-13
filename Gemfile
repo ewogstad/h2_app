@@ -10,7 +10,8 @@ gem 'rails', '3.2.11'
 gem 'pg'
 gem 'rb-readline'
 gem 'gravatar_image_tag', '0.1.0'
-
+# gem 'will_paginate', '3.0.pre2'
+gem 'will_paginate', "~> 3.0.5"
 # Gems used only for assets and not required
 # in production environments by default.
 
@@ -19,6 +20,7 @@ group :development do
   gem 'webrat', '0.7.2'
   gem 'jquery-rails'
   gem 'annotate'
+  gem 'faker','0.3.1'
 end
 
 group :test do
